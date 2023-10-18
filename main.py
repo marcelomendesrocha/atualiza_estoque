@@ -38,4 +38,5 @@ def atualiza_estoque_por_pagina(id_aplicativo, pagina):
         return response.json()
 
 
-atualiza_estoque()
+if __name__ == '__main__':
+    atualiza_estoque()
