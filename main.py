@@ -29,7 +29,7 @@ def atualiza_estoque_por_pagina(id_aplicativo, pagina):
     }
 
     response = put(
-        'https://appdevi3-implantacao.azurewebsites.net/api/ProdutoIntegracao/EstoquePorPagina',
+        'https://appdevi3.azurewebsites.net/api/ProdutoIntegracao/EstoquePorPagina',
         json=data,
         timeout=None
     )
